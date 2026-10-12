@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX08 - Product Objects</title>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Gestión de productos</h1>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Buscar producto</h2>
+
+            <input
+                type="text"
+                id="busqueda"
+                placeholder="Introduce un nombre"
+            >
+
+            <button id="buscar">
+                Buscar
+            </button>
+
+            <p id="resultado-busqueda"></p>
+        </section>
+
+        <section>
+            <h2>Filtrar productos</h2>
+
+            <button id="disponibles">
+                Mostrar disponibles
+            </button>
+
+            <button id="tecnologia">
+                Categoría tecnología
+            </button>
+        </section>
+
+        <section>
+            <h2>Ordenar productos</h2>
+
+            <button id="orden-precio">
+                Ordenar por precio
+            </button>
+        </section>
+
+        <section>
+            <h2>Productos</h2>
+
+            <ul id="lista-productos"></ul>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
